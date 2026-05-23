@@ -1,0 +1,23 @@
+#counter{
+   display: block;
+    text-align: center;
+    font-size: 10em;
+}
+#btncontainer{
+    
+   display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.btn{
+    padding: 4px 4px;
+    font-size: 1.5em;
+    color: azure;
+    background-color: rgb(126, 148, 220);
+    border-radius: 5px;
+    cursor:pointer;
+    transition: background-color 0.25s;
+}
+.btn:hover{
+    background-color:rgb(39, 77, 200) ;
+}
