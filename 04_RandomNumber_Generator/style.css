@@ -1,0 +1,15 @@
+
+body{
+    text-align: center;
+}
+#btn{
+    font-size: 2em;
+   padding: 5px 15px;
+   border-radius: 5px;
+   text-align: center;
+
+}
+
+.mylabel{
+    font-size: 2em;
+}
