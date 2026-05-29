@@ -20,5 +20,9 @@ if(length<=0){
 if(allowedChars.length===0){
     return `(At least 1 set of characters need to be selected)`;
 }
+for(let i=0;i<length;i++){
+    const randindex=Math.floor(Math.random()*allowedChars.length());
+    password += allowedChars[randindex];
+}
 }
 
